@@ -1,6 +1,6 @@
 var downloadButton = document.getElementByClassName("shortc-button");
 var counter = 61;
-var newElement = document.createElement("div");
+var newElement = document.createElement("p");
 newElement.innerHTML = "You can download the file in 60 seconds.";
 var id;
 downloadButton.parentNode.replaceChild(newElement, downloadButton);
